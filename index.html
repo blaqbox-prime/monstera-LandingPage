@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="landing">
+        <nav>
+            <a href="#"><div class="logo">plant.</div></a>
+            <ul class="nav-links">
+                <li class="nav-item active"><a href="">Home</a></li>
+                <li class="nav-item"><a href="">Collection</a></li>
+                <li class="nav-item"><a href="">Shop</a></li>
+                <li class="nav-item"><a href="">About</a></li>
+                <li class="nav-item"><a href="">Contact</a></li>
+            </ul>
+            <ul class="other-links">
+                <li><i class="fa fa-shopping-bag"></i></li>
+                <li><i class="fa fa-user"></i></li>
+                <li><i class="fa fa-search" onclick="openSearch()"></i></li>
+                <input type="text" name="searchbox" id="searchbox" placeholder="Search..." class="search-hidden">
+            </ul>
+        </nav>
+
+        <!--End on navbar -->
+
+        <div class="landingText">
+            <h1>MONSTERA</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor rem vero autem, amet eveniet<br> maiores pariatur commodi distinctio quaerat dignissimos.</p>
+            <div class="btn btn-primary">
+                <p>Discover</p>
+                <i class="fa fa-chevron-right"></i>
+            </div>
+        </div>
+
+        <!--End of landing Text-->
+
+        <div class="details">
+            <div class="detail-subsection">
+                <img src="img/watering-can.png" alt="">
+                <div class="text">
+                    <h3>Feeding</h3>
+                    <p>Lorem ipsum dolor sit <br>amet consectetur.</p>
+                </div>
+            </div>
+            <div class="detail-subsection">
+                <img src="img/lightbulb.png" alt="">
+                <div class="text">
+                    <h3>Light</h3>
+                    <p>Lorem ipsum dolor <br>sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="detail-subsection">
+                <img src="img/shovel.png" alt="">
+                <div class="text">
+                    <h3>Care</h3>
+                    <p>Lorem ipsum dolor <br>sit amet consectetur.</p>
+                </div>
+            </div>
+        </div>
+
+        <ul class="social">
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+        </ul>
+
+        <ul class="indicators">
+            <li class="indicator active"><div class="dot"></div></li>
+            <li class="indicator"><div class="dot"></div></li>
+            <li class="indicator"><div class="dot"></div></li>
+            <li class="indicator"><div class="dot"></div></li>
+        </ul>
+        <img src="img/plant.png" alt="" class="bg-plant">
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
